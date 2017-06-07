@@ -22,15 +22,6 @@
             <li><%=link_to "Login", new_user_session_path%></li>
         <%end%>
 
-
-        <li>
-        <%= link_to cart_path do%>
-            <i class="fi-shopping-cart"></i>
-            My Cart
-            (<span class="cart-count"><%=current_user.cart_count%></span>)
-        <%end%>
-        </li>
-
       </ul>
     </section>
 
